@@ -27,8 +27,8 @@ jobs:
           SONAR_TOKEN: ${{ secrets.SONAR_TOKEN }}
         with:
           args: >
-            -Dsonar.organization=YOUR_SONARCLOUD_ORG_KEY_HERE
-            -Dsonar.projectKey=YOUR_SONARCLOUD_PROJECT_KEY_HERE
+            -Dsonar.organization=hp04harsh
+            -Dsonar.projectKey=HP04Harsh_devsecops-flow
 
   build-and-scan:
     needs: security-gate
