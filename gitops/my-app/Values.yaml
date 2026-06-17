@@ -1,0 +1,11 @@
+replicaCount: 1
+
+image:
+  repository: myadmin12/devsecops-monorepo-app  # ⚠️ Replace with yours
+  tag: "latest" # The workflow will overwrite this programmatically
+  pullPolicy: IfNotPresent
+
+service:
+  type: ClusterIP
+  port: 80
+  targetPort: 3000
