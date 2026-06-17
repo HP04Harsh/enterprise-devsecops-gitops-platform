@@ -68,7 +68,7 @@ This platform leverages declarative continuous delivery using **ArgoCD**:
 ### Setup Instructions
 ```bash
 1.  git clone [https://github.com/HP04Harsh/enterprise-devsecops-gitops-platform.git](https://github.com/HP04Harsh/enterprise-devsecops-gitops-platform.git)
-cd enterprise-devsecops-gitops-platform
+   ** cd enterprise-devsecops-gitops-platform**
    
 2.  **Configure CI Secrets:** Add SONAR\_TOKEN, DOCKERHUB\_USERNAME, and DOCKERHUB\_TOKEN to your GitHub Repository Secrets.
     
