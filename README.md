@@ -2,7 +2,7 @@
 
 
 
-# Enterprise DevSecOps & GitOps Monorepo Platform
+# Enterprise DevSecOps & GitOps Monorepo Platforms
 
 An enterprise-grade, cloud-native DevSecOps and GitOps platform featuring fully automated CI/CD safety gating, vulnerability scanning, and declarative continuous delivery.
 
