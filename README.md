@@ -74,4 +74,5 @@ This platform leverages declarative continuous delivery using **ArgoCD**:
 2.  **Configure CI Secrets:** Add SONAR\_TOKEN, DOCKERHUB\_USERNAME, and DOCKERHUB\_TOKEN to your GitHub Repository Secrets.
     
 3.  **ArgoCD Connection:**Point your ArgoCD application definition to track the main branch of this repository under the gitops/my-app/ path.
-``` 
+```
+### Author: Harsh Pardhi
